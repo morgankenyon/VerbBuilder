@@ -1,0 +1,25 @@
+.container {
+	background-color: #eee;
+	width: 700px;
+	margin: 30px auto;
+	
+	display: grid;
+	grid-template-rows: 30px 30px 30px;
+	grid-template-columns: 300px 300px;
+	grid-auto-flow: column;
+	grid-gap: 30px;
+}
+
+.error {
+    border-style: solid;
+    border-color: #c00;
+    border-width: 2px;
+}
+/*
+.item {
+	padding: 20px;
+	font-size: 30px;
+	font-family: sans-serif;
+	color: white;
+
+}*/

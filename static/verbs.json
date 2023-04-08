@@ -1,0 +1,41 @@
+{
+  "language": "es",
+  
+  "first_singular": "yo",
+  "second_singular": "tú",
+  "third_singular": "él/ella/Ud.",
+  "first_plural": "nosotros",
+  "second_plural": "vosotros",
+  "third_plural": "ellos/ellas/Uds.",
+
+  "verbs": [
+    {
+      "verb": "soy",
+      "meaning": "to be",
+      "present_participle": "siendo",
+      "past_participle": "sido",
+      "present_tense": {
+        "first_singular": "soy",
+        "second_singular": "eres",
+        "third_singular": "es",
+        "first_plural": "somos",
+        "second_plural": "sois",
+        "third_plural": "son"
+      }
+    },
+    {
+      "verb": "estar",
+      "meaning": "to be",
+      "present_participle": "estando",
+      "past_participle": "estado",
+      "present_tense": {
+        "first_singular": "estoy",
+        "second_singular": "estás",
+        "third_singular": "está",
+        "first_plural": "estamos",
+        "second_plural": "estáis",
+        "third_plural": "están"
+      }
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+<!-- By @SilvenLEAF -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./dist/app-bundle.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Webpack with TypeScript</title>
+  </head>
+  <body>
+    <h1>Let's learn Some Verbs!!!</h1>
+    <button id="start_button">Let's Start!</button>
+    <div id="tense_practice">
+      <p>Verb: <span id="verb"></span></p>
+      <p>Meaning: <span id="meaning"></span></p>
+
+      <div class="container">
+        <div class="item">
+          <label for="first_singular">yo</label>
+          <input
+            type="text"
+            id="first_singular"
+            name="first_singular"
+          />
+        </div>
+
+        <div class="item">
+            
+            <label for="second_singular">tú</label>
+            <input
+              type="text"
+              id="second_singular"
+              name="second_singular"
+            />
+        </div>
+
+        <div class="item">
+          <label for="third_singular">él/ella/Ud.</label>
+          <input
+            type="text"
+            id="third_singular"
+            name="third_singular"
+          />
+        </div>
+
+        <div class="item">
+          <label for="first_plural">nosotros</label>
+          <input
+            type="text"
+            id="first_plural"
+            name="first_plural"
+          />
+        </div>
+
+        <div class="item">
+          <label for="second_plural">vosotros</label>
+          <input
+            type="text"
+            id="second_plural"
+            name="second_plural"
+            disabled
+          />
+        </div>
+
+        <div class="item">
+          <label for="third_plural">ellos/ellas/Uds.</label>
+          <input
+            type="text"
+            id="third_plural"
+            name="third_plural"
+          />
+        </div>
+      </div>
+    </div>
+    
+    <button id="check_button">Check Work</button>
+  </body>
+</html>
