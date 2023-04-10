@@ -15,6 +15,10 @@
     border-color: #c00;
     border-width: 2px;
 }
+
+.hidden {
+	visibility: hidden;
+}
 /*
 .item {
 	padding: 20px;

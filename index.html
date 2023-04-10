@@ -7,15 +7,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="./dist/app-bundle.js" defer></script>
     <link rel="stylesheet" href="styles.css">
-    <title>Webpack with TypeScript</title>
+    <title>Verb Builder</title>
   </head>
   <body>
     <h1>Let's learn Some Verbs!!!</h1>
+    <div>
+      <label for="verb_selector">Choose a verb set:</label>
+
+      <select name="verb_selector" id="verb_selector">
+        <option value="0">1-10</option>
+        <option value="10">11-20</option>
+      </select>
+    </div>
     <button id="start_button">Let's Start!</button>
-    <div id="tense_practice">
+    <p id="tense_batch_message" class="hidden">You finished! You made <span id="tense_batch_error_number"></span> mistakes!</p>
+      
+    <div id="tense_practice" class="hidden">
       <p>Verb: <span id="verb"></span></p>
       <p>Meaning: <span id="meaning"></span></p>
 
+      <p id="tense_error_message" class="hidden">Please fix any errors</p>
+      <p id="tense_success_message" class="hidden">All good!</p>
       <div class="container">
         <div class="item">
           <label for="first_singular">yo</label>
@@ -73,8 +85,10 @@
           />
         </div>
       </div>
+      
+      <button id="check_button">Check Work</button>
+      <button id="next_verb">Next Verb</button>
     </div>
     
-    <button id="check_button">Check Work</button>
   </body>
 </html>

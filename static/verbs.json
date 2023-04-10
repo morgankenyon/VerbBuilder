@@ -36,6 +36,118 @@
         "second_plural": "estáis",
         "third_plural": "están"
       }
+    },
+    {
+      "verb": "tener",
+      "meaning": "to have",
+      "present_participle": "teniendo",
+      "past_participle": "tenido",
+      "present_tense": {
+        "first_singular": "tengo",
+        "second_singular": "tienes",
+        "third_singular": "tiene",
+        "first_plural": "tenemos",
+        "second_plural": "tenéis",
+        "third_plural": "tienen"
+      }
+    },
+    {
+      "verb": "decir",
+      "meaning": "to say/to tell",
+      "present_participle": "diciendo",
+      "past_participle": "dicho",
+      "present_tense": {
+        "first_singular": "digo",
+        "second_singular": "dices",
+        "third_singular": "dice",
+        "first_plural": "decimos",
+        "second_plural": "decís",
+        "third_plural": "dicen"
+      }
+    },
+    {
+      "verb": "ver",
+      "meaning": "to see",
+      "present_participle": "viendo",
+      "past_participle": "visto",
+      "present_tense": {
+        "first_singular": "veo",
+        "second_singular": "ves",
+        "third_singular": "ve",
+        "first_plural": "vemos",
+        "second_plural": "veis",
+        "third_plural": "ven"
+      }
+    },
+    {
+      "verb": "ir",
+      "meaning": "to go",
+      "present_participle": "yendo",
+      "past_participle": "ido",
+      "present_tense": {
+        "first_singular": "voy",
+        "second_singular": "vas",
+        "third_singular": "va",
+        "first_plural": "vamos",
+        "second_plural": "vais",
+        "third_plural": "van"
+      }
+    },
+    {
+      "verb": "hacer",
+      "meaning": "to do/to make",
+      "present_participle": "haciendo",
+      "past_participle": "hecho",
+      "present_tense": {
+        "first_singular": "hago",
+        "second_singular": "haces",
+        "third_singular": "hace",
+        "first_plural": "hacemos",
+        "second_plural": "hacéis",
+        "third_plural": "hacen"
+      }
+    },
+    {
+      "verb": "tomar",
+      "meaning": "to drink, to take",
+      "present_participle": "tomando",
+      "past_participle": "tomado",
+      "present_tense": {
+        "first_singular": "tomo",
+        "second_singular": "tomas",
+        "third_singular": "toma",
+        "first_plural": "tomamos",
+        "second_plural": "tomáis",
+        "third_plural": "toman"
+      }
+    },
+    {
+      "verb": "poder",
+      "meaning": "to be able to",
+      "present_participle": "pudiendo",
+      "past_participle": "podido",
+      "present_tense": {
+        "first_singular": "puedo",
+        "second_singular": "puedes",
+        "third_singular": "puede",
+        "first_plural": "podemos",
+        "second_plural": "podéis",
+        "third_plural": "pueden"
+      }
+    },
+    {
+      "verb": "comer",
+      "meaning": "to eat",
+      "present_participle": "comiendo",
+      "past_participle": "comido",
+      "present_tense": {
+        "first_singular": "como",
+        "second_singular": "comes",
+        "third_singular": "come",
+        "first_plural": "comemos",
+        "second_plural": "coméis",
+        "third_plural": "comen"
+      }
     }
   ]
 }
