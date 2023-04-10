@@ -1,5 +1,5 @@
 # VerbBuilder
-A repo for helping me memorize Spanish verbs
+A repo for helping me memorize Spanish verbs.
 
 ## Todo
 
@@ -10,4 +10,6 @@ A repo for helping me memorize Spanish verbs
 - make verb and meaning bigger so it's easier to see
 - mamybe hide next button until you've answered and you got everything correct
 - add more verbs
+- add the ability to quiz past tenses
+- add the ability to quiz future tenses
 - make things look nice
