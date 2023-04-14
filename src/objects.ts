@@ -8,6 +8,7 @@ interface Tense {
 }
 
 interface Verb {
+    num: number,
     verb: string,
     meaning: string,
     present_participle: string,

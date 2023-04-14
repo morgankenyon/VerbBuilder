@@ -10,6 +10,7 @@
 
   "verbs": [
     {
+      "num": "1",
       "verb": "soy",
       "meaning": "to be",
       "present_participle": "siendo",
@@ -24,6 +25,7 @@
       }
     },
     {
+      "num": "2",
       "verb": "estar",
       "meaning": "to be",
       "present_participle": "estando",
@@ -38,6 +40,7 @@
       }
     },
     {
+      "num": "3",
       "verb": "tener",
       "meaning": "to have",
       "present_participle": "teniendo",
@@ -52,6 +55,7 @@
       }
     },
     {
+      "num": "4",
       "verb": "decir",
       "meaning": "to say/to tell",
       "present_participle": "diciendo",
@@ -66,6 +70,7 @@
       }
     },
     {
+      "num": "5",
       "verb": "ver",
       "meaning": "to see",
       "present_participle": "viendo",
@@ -80,6 +85,7 @@
       }
     },
     {
+      "num": "6",
       "verb": "ir",
       "meaning": "to go",
       "present_participle": "yendo",
@@ -94,6 +100,7 @@
       }
     },
     {
+      "num": "7",
       "verb": "hacer",
       "meaning": "to do/to make",
       "present_participle": "haciendo",
@@ -108,6 +115,7 @@
       }
     },
     {
+      "num": "8",
       "verb": "tomar",
       "meaning": "to drink, to take",
       "present_participle": "tomando",
@@ -122,6 +130,7 @@
       }
     },
     {
+      "num": "9",
       "verb": "poder",
       "meaning": "to be able to",
       "present_participle": "pudiendo",
@@ -136,6 +145,7 @@
       }
     },
     {
+      "num": "10",
       "verb": "comer",
       "meaning": "to eat",
       "present_participle": "comiendo",
@@ -147,6 +157,156 @@
         "first_plural": "comemos",
         "second_plural": "coméis",
         "third_plural": "comen"
+      }
+    },
+    {
+      "num": "11",
+      "verb": "hablar",
+      "meaning": "to speak, to talk",
+      "present_participle": "hablando",
+      "past_participle": "hablado",
+      "present_tense": {
+        "first_singular": "hablo",
+        "second_singular": "hablas",
+        "third_singular": "habla",
+        "first_plural": "hablamos",
+        "second_plural": "habláis",
+        "third_plural": "hablan"
+      }
+    },
+    {
+      "num": "12",
+      "verb": "pensar",
+      "meaning": "to think",
+      "present_participle": "pensando",
+      "past_participle": "pensado",
+      "present_tense": {
+        "first_singular": "pienso",
+        "second_singular": "piensas",
+        "third_singular": "piensa",
+        "first_plural": "pensamos",
+        "second_plural": "pensáis",
+        "third_plural": "piensan"
+      }
+    },
+    {
+      "num": "13",
+      "verb": "comprender",
+      "meaning": "to comprehend, to understand",
+      "present_participle": "comprendiendo",
+      "past_participle": "comprendido",
+      "present_tense": {
+        "first_singular": "comprendo",
+        "second_singular": "comprendes",
+        "third_singular": "comprende",
+        "first_plural": "comprendemos",
+        "second_plural": "comprendéis",
+        "third_plural": "comprenden"
+      }
+    },
+    {
+      "num": "14",
+      "verb": "lavar",
+      "meaning": "to wash",
+      "present_participle": "lavando",
+      "past_participle": "lavado",
+      "present_tense": {
+        "first_singular": "lavo",
+        "second_singular": "lavas",
+        "third_singular": "lava",
+        "first_plural": "lavamos",
+        "second_plural": "laváis",
+        "third_plural": "lavan"
+      }
+    },
+    {
+      "num": "15",
+      "verb": "mirar",
+      "meaning": "to look, to watch",
+      "present_participle": "mirando",
+      "past_participle": "mirado",
+      "present_tense": {
+        "first_singular": "miro",
+        "second_singular": "miras",
+        "third_singular": "mira",
+        "first_plural": "miramos",
+        "second_plural": "miráis",
+        "third_plural": "miran"
+      }
+    },
+    {
+      "num": "16",
+      "verb": "salir",
+      "meaning": "to leave, to go out, to get out",
+      "present_participle": "saliendo",
+      "past_participle": "salido",
+      "present_tense": {
+        "first_singular": "salgo",
+        "second_singular": "sales",
+        "third_singular": "sale",
+        "first_plural": "salimos",
+        "second_plural": "salís",
+        "third_plural": "salen"
+      }
+    },
+    {
+      "num": "17",
+      "verb": "esperar",
+      "meaning": "to wait, to hope",
+      "present_participle": "esperando",
+      "past_participle": "esperado",
+      "present_tense": {
+        "first_singular": "espero",
+        "second_singular": "esperas",
+        "third_singular": "espera",
+        "first_plural": "esperamos",
+        "second_plural": "esperáis",
+        "third_plural": "esperan"
+      }
+    },
+    {
+      "num": "18",
+      "verb": "aprender",
+      "meaning": "to learn",
+      "present_participle": "aprendiendo",
+      "past_participle": "aprendido",
+      "present_tense": {
+        "first_singular": "aprendo",
+        "second_singular": "aprendes",
+        "third_singular": "aprende",
+        "first_plural": "aprendemos",
+        "second_plural": "aprendéis",
+        "third_plural": "aprenden"
+      }
+    },
+    {
+      "num": "19",
+      "verb": "morir",
+      "meaning": "to die, to decease",
+      "present_participle": "muriendo",
+      "past_participle": "muerto",
+      "present_tense": {
+        "first_singular": "muero",
+        "second_singular": "mueres",
+        "third_singular": "muere",
+        "first_plural": "morimos",
+        "second_plural": "morís",
+        "third_plural": "mueren"
+      }
+    },
+    {
+      "num": "20",
+      "verb": "dar",
+      "meaning": "to give",
+      "present_participle": "dando",
+      "past_participle": "dado",
+      "present_tense": {
+        "first_singular": "doy",
+        "second_singular": "das",
+        "third_singular": "da",
+        "first_plural": "damos",
+        "second_plural": "dais",
+        "third_plural": "dan"
       }
     }
   ]
