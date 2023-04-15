@@ -165,7 +165,11 @@ function updateVerbPractice(verbNumber: number) {
   secondPluralInput.value = "";
   thirdPluralInput.value = "";
 
+
   const verb = verbPack.verbs[currentVerb];
+  
+  tenseErrorMessageP.classList.add("hidden");
+  tenseSuccessMessageP.classList.add("hidden");
 
   verbSpan.innerHTML = verb.verb;
   meaningSpan.innerHTML = verb.meaning;

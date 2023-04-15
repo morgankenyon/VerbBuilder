@@ -4,91 +4,130 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
     <script src="./dist/app-bundle.js" defer></script>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
     <title>Verb Builder</title>
   </head>
   <body>
-    <h1>Let's learn Some Verbs!!!</h1>
-    <div>
-      <label for="verb_selector">Choose a verb set:</label>
+    <div class="container">
+      <div class="section">
+        <div class="columns">
+          <div class="column is-full">
+            <h1 class="title">Let's Learn Some Verbs!!!</h1>
+            <div class="field">
+              <label for="verb_selector" class="label">Choose a verb set:</label>
+              <div class="control">
+                <div class="select">
+                  <select name="verb_selector" id="verb_selector">
+                    <option value="0">1-10</option>
+                    <option value="10">11-20</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="field">
+              <div class="control">
+                <button id="start_button" class="button">Let's Start!</button>
+              </div>
+            </div>
+            <div class="field">
+              <p id="tense_batch_message" class="hidden">
+                You finished! You made
+                <span id="tense_batch_error_number"></span> mistakes!
+              </p>
 
-      <select name="verb_selector" id="verb_selector">
-        <option value="0">1-10</option>
-        <option value="10">11-20</option>
-      </select>
-    </div>
-    <button id="start_button">Let's Start!</button>
-    <p id="tense_batch_message" class="hidden">You finished! You made <span id="tense_batch_error_number"></span> mistakes!</p>
-      
-    <div id="tense_practice" class="hidden">
-      <p>Verb: <span id="verb"></span></p>
-      <p>Meaning: <span id="meaning"></span></p>
+              <div id="tense_practice" class="hidden">
+                <div class="">
+                  <p>Verb: <span id="verb"></span></p>
+                  <p>Meaning: <span id="meaning"></span></p>
+                </div>
 
-      <p id="tense_error_message" class="hidden">Please fix any errors</p>
-      <p id="tense_success_message" class="hidden">All good!</p>
-      <div class="container">
-        <div class="item">
-          <label for="first_singular">yo</label>
-          <input
-            type="text"
-            id="first_singular"
-            name="first_singular"
-          />
-        </div>
+                <div class="column is-full">
+                  <p id="tense_error_message" class="hidden">
+                    Please fix any errors
+                  </p>
+                  <p id="tense_success_message" class="hidden">All good!</p>
+                  <div class="columns">
+                    <div class="column is-half">
+                      <div class="columns">
+                        <div class="column is-one-fifth">yo</div>
+                        <div class="column">
+                          <input
+                            type="text"
+                            id="first_singular"
+                            name="first_singular"
+                          />
+                        </div>
+                      </div>
 
-        <div class="item">
-            
-            <label for="second_singular">tú</label>
-            <input
-              type="text"
-              id="second_singular"
-              name="second_singular"
-            />
-        </div>
+                      <div class="columns">
+                        <div class="column is-one-fifth">tú</div>
+                        <div class="column">
+                          <input
+                            type="text"
+                            id="second_singular"
+                            name="second_singular"
+                          />
+                        </div>
+                      </div>
 
-        <div class="item">
-          <label for="third_singular">él/ella/Ud.</label>
-          <input
-            type="text"
-            id="third_singular"
-            name="third_singular"
-          />
-        </div>
+                      <div class="columns">
+                        <div class="column is-one-fifth">él/ella/Ud.</div>
+                        <div class="column">
+                          <input
+                            type="text"
+                            id="third_singular"
+                            name="third_singular"
+                          />
+                        </div>
+                      </div>
+                    </div>
 
-        <div class="item">
-          <label for="first_plural">nosotros</label>
-          <input
-            type="text"
-            id="first_plural"
-            name="first_plural"
-          />
-        </div>
+                    
+                    <div class="column is-half">
+                      <div class="columns">
+                        <div class="column is-one-fifth">nosotros</div>
+                        <div class="column">
+                          
+                        <input type="text" id="first_plural" name="first_plural" />
+                        </div>
+                      </div>
 
-        <div class="item">
-          <label for="second_plural">vosotros</label>
-          <input
-            type="text"
-            id="second_plural"
-            name="second_plural"
-            disabled
-          />
-        </div>
+                      <div class="columns">
+                        <div class="column is-one-fifth">vosotros</div>
+                        <div class="column">
+                          <input
+                            type="text"
+                            id="second_plural"
+                            name="second_plural"
+                            disabled
+                          />
+                        </div>
+                      </div>
 
-        <div class="item">
-          <label for="third_plural">ellos/ellas/Uds.</label>
-          <input
-            type="text"
-            id="third_plural"
-            name="third_plural"
-          />
+                      <div class="columns">
+                        <div class="column is-one-fifth">ellos/ellas/Uds.</div>
+                        <div class="column">
+                          
+                          <input type="text" id="third_plural" name="third_plural" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <button id="check_button" class="button">Check Work</button>
+                  <button id="next_verb" class="button">Next Verb</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      
-      <button id="check_button">Check Work</button>
-      <button id="next_verb">Next Verb</button>
     </div>
-    
   </body>
 </html>

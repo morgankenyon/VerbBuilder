@@ -13,3 +13,5 @@ A repo for helping me memorize Spanish verbs.
 - add the ability to quiz past tenses
 - add the ability to quiz future tenses
 - make things look nice
+- when clicking "next verb", add focus to yo input box
+- add number to know which verb you're on
